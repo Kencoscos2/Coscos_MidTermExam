@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>ChatBook</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <h1>ChatBook</h1> 
+       <ul>
+            <p class="logout"><a class="active" href="login.html">logout</a></p>
+        </ul> 
+        
+    </div> 
+    <div id="message">
+    </div>
+   
+    
+    <!-- message plus send button -->
+    <div id="footer">
+        <form>
+            <input class="text1" text="text" id="textmessage">
+            <input class="send1" type="submit" id="send" value="Send">
+        </form>
+    </div>
+</div>
+
+<script src="https://cdn.socket.io/4.4.1/socket.io.min.js" integrity="sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H" crossorigin="anonymous"></script>
+<script src="socket.js"></script>
+<script src="chat.js"></script>
+<script src="login.js"></script>
+
+<!-- <span> Username: </span>
+<input type="text" id="username">
+<br/>
+<br/>
+<span> Message: </span>
+<input type="text" id=",message">
+<input type="submit" id="send" value="Send Message">
+<br/>
+<br/>
+<div id="messages"></div>
+
+<script src="chat.js"></script> -->
+</body>
+
+</html>
